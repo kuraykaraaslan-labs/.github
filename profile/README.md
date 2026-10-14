@@ -32,10 +32,22 @@ Each ships a framework-agnostic TypeScript core plus a batteries-included React 
 
 ## Starters
 
-Production foundations that pair a KUI kit with a backend, so a new project starts with auth, structure and deployment already decided.
+One multi-tenant SaaS foundation, reachable from four stacks. Every starter shares the same domain model — organizations, members, invitations, roles, sessions, billing — so a new project starts with the hard, boring parts already built and tested.
 
-- [**expo-react-native-boilerplate**](https://github.com/kuraykaraaslan/expo-react-native-boilerplate) — Expo + React Native on top of kui-native.
-- **next-boilerplate** — kui-react with a multi-tenant Next.js backend, auth and APIs. Available for client work.
+| Starter | Stack | What you get | |
+|---|---|---|---|
+| **next-boilerplate** | Next.js 16 · TypeScript · PostgreSQL · Redis + BullMQ · kui-react | The core: multi-tenant SaaS with JWT, OTP, TOTP, SAML and OAuth sign-in, Stripe / PayPal / Iyzico payments, S3 storage, email and background jobs. | Private — used for client projects |
+| [**express-boilerplate**](https://github.com/kuraykaraaslan/express-boilerplate) | Express · TypeScript · DDD | The same multi-tenant API without a frontend: 35+ domain modules, passkeys, SSO, impersonation, webhooks, audit log, plan-aware rate limiting, Docker. | [Source](https://github.com/kuraykaraaslan/express-boilerplate) |
+| [**expo-react-native-boilerplate**](https://github.com/kuraykaraaslan/expo-react-native-boilerplate) | Expo SDK 57 · React Native 0.86 · kui-native | The mobile client for iOS, Android and web. Signs in against next-boilerplate and works inside one organization, in light and dark. | [Source](https://github.com/kuraykaraaslan/expo-react-native-boilerplate) |
+| [**spring-boilerplate**](https://github.com/kuraykaraaslan/spring-boilerplate) | Spring Boot 3.4 · Java 17 | Early stage: security, JPA, Redis and an OAuth2 resource server are wired; the domain modules are not ported yet. | [Source](https://github.com/kuraykaraaslan/spring-boilerplate) |
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/kuraykaraaslan/expo-react-native-boilerplate/main/static/screenshots/login.png" width="160" alt="expo-react-native-boilerplate: sign in">
+  <img src="https://raw.githubusercontent.com/kuraykaraaslan/expo-react-native-boilerplate/main/static/screenshots/home.png" width="160" alt="expo-react-native-boilerplate: dashboard">
+  <img src="https://raw.githubusercontent.com/kuraykaraaslan/expo-react-native-boilerplate/main/static/screenshots/members.png" width="160" alt="expo-react-native-boilerplate: members">
+  <img src="https://raw.githubusercontent.com/kuraykaraaslan/expo-react-native-boilerplate/main/static/screenshots/dark-home.png" width="160" alt="expo-react-native-boilerplate: dashboard, dark">
+</p>
+<p align="center"><sub>expo-react-native-boilerplate — sign in, dashboard, members, dark mode</sub></p>
 
 ## Products
 
