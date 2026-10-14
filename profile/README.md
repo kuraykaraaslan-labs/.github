@@ -42,10 +42,10 @@ One multi-tenant SaaS foundation, reachable from four stacks. Every starter shar
 | [**spring-boilerplate**](https://github.com/kuraykaraaslan/spring-boilerplate) | Spring Boot 3.4 · Java 17 | Early stage: security, JPA, Redis and an OAuth2 resource server are wired; the domain modules are not ported yet. | [Source](https://github.com/kuraykaraaslan/spring-boilerplate) |
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/kuraykaraaslan/expo-react-native-boilerplate/main/static/screenshots/login.png" width="160" alt="expo-react-native-boilerplate: sign in">
-  <img src="https://raw.githubusercontent.com/kuraykaraaslan/expo-react-native-boilerplate/main/static/screenshots/home.png" width="160" alt="expo-react-native-boilerplate: dashboard">
-  <img src="https://raw.githubusercontent.com/kuraykaraaslan/expo-react-native-boilerplate/main/static/screenshots/members.png" width="160" alt="expo-react-native-boilerplate: members">
-  <img src="https://raw.githubusercontent.com/kuraykaraaslan/expo-react-native-boilerplate/main/static/screenshots/dark-home.png" width="160" alt="expo-react-native-boilerplate: dashboard, dark">
+  <img src="https://raw.githubusercontent.com/kuraykaraaslan/expo-react-native-boilerplate/main/static/screenshots/login.png" height="346" alt="expo-react-native-boilerplate: sign in">
+  <img src="https://raw.githubusercontent.com/kuraykaraaslan/expo-react-native-boilerplate/main/static/screenshots/home.png" height="346" alt="expo-react-native-boilerplate: dashboard">
+  <img src="https://raw.githubusercontent.com/kuraykaraaslan/expo-react-native-boilerplate/main/static/screenshots/members.png" height="346" alt="expo-react-native-boilerplate: members">
+  <img src="https://raw.githubusercontent.com/kuraykaraaslan/expo-react-native-boilerplate/main/static/screenshots/dark-home.png" height="346" alt="expo-react-native-boilerplate: dashboard, dark">
 </p>
 <p align="center"><sub>expo-react-native-boilerplate — sign in, dashboard, members, dark mode</sub></p>
 
