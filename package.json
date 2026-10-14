@@ -1,0 +1,13 @@
+{
+  "name": "kuraytech-github",
+  "private": true,
+  "type": "module",
+  "description": "kuraytech organization profile and brand assets",
+  "scripts": {
+    "build": "node brand/build.mjs",
+    "test": "node --test brand/brand.test.mjs"
+  },
+  "devDependencies": {
+    "sharp": "0.35.4"
+  }
+}
