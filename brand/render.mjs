@@ -10,7 +10,7 @@ import {
   FONT_STACK,
   FORK,
   MONO_STACK,
-  ORG_HANDLE,
+  SITE,
   NODE_RADIUS,
   NODE_SHIFT,
   STEM,
@@ -182,7 +182,7 @@ export function socialSvg() {
   <g transform="translate(96 88) scale(2)">
   ${houseMark()}
   </g>
-  <text x="1184" y="160" text-anchor="end" font-family="${MONO_STACK}" font-size="22" fill="${p.muted}">github.com/${ORG_HANDLE}</text>
+  <text x="1184" y="160" text-anchor="end" font-family="${MONO_STACK}" font-size="22" fill="${p.muted}">${SITE}</text>
   <text x="96" y="318" font-family="${FONT_STACK}" font-size="76" font-weight="600" letter-spacing="-2" xml:space="preserve">${spans(p)}</text>
   <text x="98" y="370" font-family="${FONT_STACK}" font-size="30" fill="${p.text}">${TAGLINE}</text>
   ${branchGraph({ x0: 136, y: 500, spacing: 144, reach: 52, stroke: 6, node: 8, fontSize: 19, p })}

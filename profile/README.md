@@ -7,7 +7,7 @@
 
 Everything here grows from one trunk: a single design system, implemented in three runtimes, and a set of standalone engines built on top of it. Every package has a live demo.
 
-[Website](https://kuray.dev) · [kui-react showcase](https://kui-react.kuray.dev) · [Work with me](https://kuray.dev)
+[Website](https://labs.kuray.dev) · [kui-react showcase](https://kui-react.kuray.dev) · [Work with me](https://kuray.dev)
 
 ## The KUI design system
 

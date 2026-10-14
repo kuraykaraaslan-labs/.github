@@ -10,6 +10,7 @@ product.
 
 | | |
 |---|---|
+| **Website** | [labs.kuray.dev](https://labs.kuray.dev) |
 | **What it is** | The product house of Kuray Karaaslan: component libraries, starters and tools for production business software. |
 | **Who it is for** | Developers, agencies, SMEs and founders building admin panels, dashboards, SaaS products and internal platforms that have to stay maintainable after launch. |
 | **Promise** | Building blocks for production software. |

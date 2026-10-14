@@ -79,7 +79,7 @@ export const COLORS = {
  *  account (github.com/kuraykaraaslan), so it carries the trunk blue. The
  *  leading space lives in the accent span so the split stays one boundary. */
 export const WORDMARK = { name: "kuraykaraaslan", accent: " labs" };
-export const ORG_HANDLE = "kuraykaraaslan-labs";
+export const SITE = "labs.kuray.dev";
 /** Mean advance per character at 26px SemiBold, measured against the system
  *  fallback, not Geist — GitHub renders SVGs as <img>, which never loads a
  *  web font, so the fallback is what every visitor actually sees. */
