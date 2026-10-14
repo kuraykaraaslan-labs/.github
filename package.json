@@ -1,8 +1,8 @@
 {
-  "name": "kuraytech-github",
+  "name": "kuraykaraaslan-labs-github",
   "private": true,
   "type": "module",
-  "description": "kuraytech organization profile and brand assets",
+  "description": "kuraykaraaslan labs organization profile and brand assets",
   "scripts": {
     "build": "node brand/build.mjs",
     "test": "node --test brand/brand.test.mjs"

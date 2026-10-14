@@ -1,7 +1,7 @@
 /**
- * The kuraytech house mark, as raw geometry.
+ * The kuraykaraaslan labs house mark, as raw geometry.
  *
- * kuraytech is the house every owned product ships from, so its mark is the
+ * kuraykaraaslan labs is the house every owned product ships from, so its mark is the
  * house construction itself — the branching K fixed by
  * Brand_Positioning_Rules/logo-system.md: a stem that forks into two arms at
  * exactly 45 degrees, 64-unit grid, stroke 7, rounded tile at radius 14.
@@ -26,7 +26,7 @@ export const STROKE_WIDTH = 7;
 /** ~22% of the tile edge. */
 export const TILE_RADIUS = 14;
 
-/** ---- The kuraytech variant: node terminals. -------------------------- */
+/** ---- The labs variant: node terminals. ------------------------------ */
 
 /** ~8.6% of the grid. Large enough to read as a dot past the stroke's own
  *  round cap at 16px, small enough to keep 10.5 units of vertical margin
@@ -74,9 +74,12 @@ export const COLORS = {
 
 /** ---- Wordmark ------------------------------------------------------ */
 
-/** Split at the semantic boundary: the name every product domain carries
- *  (*.kuray.dev) in the house blue, the trade in the foreground. */
-export const WORDMARK = { lead: "kuray", trail: "tech" };
+/** Split at the semantic boundary. The name is the person and sits in the
+ *  foreground; "labs" is what makes this the house rather than the personal
+ *  account (github.com/kuraykaraaslan), so it carries the trunk blue. The
+ *  leading space lives in the accent span so the split stays one boundary. */
+export const WORDMARK = { name: "kuraykaraaslan", accent: " labs" };
+export const ORG_HANDLE = "kuraykaraaslan-labs";
 /** Mean advance per character at 26px SemiBold, measured against the system
  *  fallback, not Geist — GitHub renders SVGs as <img>, which never loads a
  *  web font, so the fallback is what every visitor actually sees. */
@@ -105,8 +108,8 @@ export const FAMILY = [
 ];
 
 /** Branches drawn in the profile banner — one per shipped product. */
-/** Ordered so the longest label never sits beside another long one on the
- *  same side of the trunk (even = up, odd = down). */
+/** Even indexes branch up, odd ones down. Ordered so long labels never sit
+ *  side by side, which matters whenever the graph is drawn tight. */
 export const BRANCHES = [
   "kui-react",
   "kui-calendar",

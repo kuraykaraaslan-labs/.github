@@ -1,9 +1,9 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kuraytech/.github/main/brand/banner-dark.svg">
-  <img alt="kuraytech — Building blocks for production software" src="https://raw.githubusercontent.com/kuraytech/.github/main/brand/banner-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kuraykaraaslan-labs/.github/main/brand/banner-dark.svg">
+  <img alt="kuraykaraaslan labs — Building blocks for production software" src="https://raw.githubusercontent.com/kuraykaraaslan-labs/.github/main/brand/banner-light.svg" width="100%">
 </picture>
 
-**kuraytech** is the product house of [Kuray Karaaslan](https://kuray.dev): component libraries, starters and tools for teams that build serious business software — admin panels, dashboards, SaaS products and internal platforms — and need them to be maintainable after launch, not just demo-ready.
+**kuraykaraaslan labs** is the product house of [Kuray Karaaslan](https://kuray.dev): component libraries, starters and tools for teams that build serious business software — admin panels, dashboards, SaaS products and internal platforms — and need them to be maintainable after launch, not just demo-ready.
 
 Everything here grows from one trunk: a single design system, implemented in three runtimes, and a set of standalone engines built on top of it. Every package has a live demo.
 
@@ -15,9 +15,9 @@ One component library in three runtimes, kept in visual parity. `kui-react` is t
 
 | | Package | What it is | |
 |:-:|---|---|---|
-| <img src="https://raw.githubusercontent.com/kuraytech/.github/main/brand/family/kui-react.svg" width="32" alt=""> | [**kui-react**](https://github.com/kuraykaraaslan/kui-react) | Next.js 16 / React 19 components organised by atomic design, with seventeen full-page industry demos. Copy-paste ready. | [Demo](https://kui-react.kuray.dev) |
-| <img src="https://raw.githubusercontent.com/kuraytech/.github/main/brand/family/kui-ejs.svg" width="32" alt=""> | [**kui-ejs**](https://github.com/kuraykaraaslan/kui-ejs) | The same system, server-rendered with EJS — for Express apps that do not want a client framework. | [Demo](https://kui-ejs.kuray.dev) |
-| <img src="https://raw.githubusercontent.com/kuraytech/.github/main/brand/family/kui-native.svg" width="32" alt=""> | [**kui-native**](https://github.com/kuraykaraaslan/kui-native) | The same system for React Native and Expo. | [Demo](https://kui-native.kuray.dev) |
+| <img src="https://raw.githubusercontent.com/kuraykaraaslan-labs/.github/main/brand/family/kui-react.svg" width="32" alt=""> | [**kui-react**](https://github.com/kuraykaraaslan/kui-react) | Next.js 16 / React 19 components organised by atomic design, with seventeen full-page industry demos. Copy-paste ready. | [Demo](https://kui-react.kuray.dev) |
+| <img src="https://raw.githubusercontent.com/kuraykaraaslan-labs/.github/main/brand/family/kui-ejs.svg" width="32" alt=""> | [**kui-ejs**](https://github.com/kuraykaraaslan/kui-ejs) | The same system, server-rendered with EJS — for Express apps that do not want a client framework. | [Demo](https://kui-ejs.kuray.dev) |
+| <img src="https://raw.githubusercontent.com/kuraykaraaslan-labs/.github/main/brand/family/kui-native.svg" width="32" alt=""> | [**kui-native**](https://github.com/kuraykaraaslan/kui-native) | The same system for React Native and Expo. | [Demo](https://kui-native.kuray.dev) |
 
 ## Standalone engines
 
@@ -25,10 +25,10 @@ Each ships a framework-agnostic TypeScript core plus a batteries-included React 
 
 | | Package | What it is | |
 |:-:|---|---|---|
-| <img src="https://raw.githubusercontent.com/kuraytech/.github/main/brand/family/kui-calendar.svg" width="32" alt=""> | [**kui-calendar**](https://github.com/kuraykaraaslan/kui-calendar) | Calendar and scheduler — `CalendarEngine`. | [Demo](https://kui-calendar.kuray.dev) |
-| <img src="https://raw.githubusercontent.com/kuraytech/.github/main/brand/family/kui-gantt.svg" width="32" alt=""> | [**kui-gantt**](https://github.com/kuraykaraaslan/kui-gantt) | Gantt chart and project scheduler with critical path — `GanttEngine`. | [Demo](https://kui-gantt.kuray.dev) |
-| <img src="https://raw.githubusercontent.com/kuraytech/.github/main/brand/family/kui-player.svg" width="32" alt=""> | [**kui-player**](https://github.com/kuraykaraaslan/kui-player) | HTML5 video player around a native `<video>` element — `VideoPlayerEngine`. | [Demo](https://kui-player.kuray.dev) |
-| <img src="https://raw.githubusercontent.com/kuraytech/.github/main/brand/family/kui-viewer.svg" width="32" alt=""> | **kui-viewer** | Browser-based IFC / BIM 3D viewer on Three.js and web-ifc. | [Demo](https://kui-viewer.kuray.dev) |
+| <img src="https://raw.githubusercontent.com/kuraykaraaslan-labs/.github/main/brand/family/kui-calendar.svg" width="32" alt=""> | [**kui-calendar**](https://github.com/kuraykaraaslan/kui-calendar) | Calendar and scheduler — `CalendarEngine`. | [Demo](https://kui-calendar.kuray.dev) |
+| <img src="https://raw.githubusercontent.com/kuraykaraaslan-labs/.github/main/brand/family/kui-gantt.svg" width="32" alt=""> | [**kui-gantt**](https://github.com/kuraykaraaslan/kui-gantt) | Gantt chart and project scheduler with critical path — `GanttEngine`. | [Demo](https://kui-gantt.kuray.dev) |
+| <img src="https://raw.githubusercontent.com/kuraykaraaslan-labs/.github/main/brand/family/kui-player.svg" width="32" alt=""> | [**kui-player**](https://github.com/kuraykaraaslan/kui-player) | HTML5 video player around a native `<video>` element — `VideoPlayerEngine`. | [Demo](https://kui-player.kuray.dev) |
+| <img src="https://raw.githubusercontent.com/kuraykaraaslan-labs/.github/main/brand/family/kui-viewer.svg" width="32" alt=""> | **kui-viewer** | Browser-based IFC / BIM 3D viewer on Three.js and web-ifc. | [Demo](https://kui-viewer.kuray.dev) |
 
 ## Starters
 
@@ -47,10 +47,10 @@ Production foundations that pair a KUI kit with a backend, so a new project star
 - **Logic outside the framework.** Engines are plain TypeScript; React is a subpath, not a dependency of the core.
 - **One design, three runtimes.** React, EJS and React Native implementations are held to a written parity contract.
 - **Proof over claims.** Every library has a public, working demo you can try before reading a line of code.
-- **Generated, not hand-drawn.** Even this page's logo is built from [code](https://github.com/kuraytech/.github/tree/main/brand) and guarded by tests.
+- **Generated, not hand-drawn.** Even this page's logo is built from [code](https://github.com/kuraykaraaslan-labs/.github/tree/main/brand) and guarded by tests.
 
 ## Work together
 
-kuraytech is a one-person studio. If your team needs a production web platform, admin system or SaaS MVP built on these foundations — scoped, deployed and handed over with documentation — start at [kuray.dev](https://kuray.dev).
+kuraykaraaslan labs is a one-person studio. If your team needs a production web platform, admin system or SaaS MVP built on these foundations — scoped, deployed and handed over with documentation — start at [kuray.dev](https://kuray.dev).
 
-<sub><img src="https://raw.githubusercontent.com/kuraytech/.github/main/brand/mark.svg" width="14" alt=""> &nbsp;kuraytech — building blocks for production software</sub>
+<sub><img src="https://raw.githubusercontent.com/kuraykaraaslan-labs/.github/main/brand/mark.svg" width="14" alt=""> &nbsp;kuraykaraaslan labs — building blocks for production software</sub>

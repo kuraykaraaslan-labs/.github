@@ -1,8 +1,8 @@
-# kuraytech/.github
+# kuraykaraaslan-labs/.github
 
-The organization profile and brand assets for **kuraytech**.
+The organization profile and brand assets for **kuraykaraaslan labs**.
 
-- [`profile/README.md`](profile/README.md) — the page shown at [github.com/kuraytech](https://github.com/kuraytech)
+- [`profile/README.md`](profile/README.md) — the page shown at [github.com/kuraykaraaslan-labs](https://github.com/kuraykaraaslan-labs)
 - [`brand/`](brand) — logo, palette, type and usage rules, all generated from code
 
 ```bash

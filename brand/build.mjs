@@ -1,5 +1,5 @@
 /**
- * Writes every kuraytech brand asset from the one geometry source:
+ * Writes every kuraykaraaslan labs brand asset from the one geometry source:
  *
  *   brand/mark.svg                 — the house mark (rounded tile)
  *   brand/mark-square.svg          — square tile, for surfaces that round it themselves

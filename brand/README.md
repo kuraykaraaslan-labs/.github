@@ -1,8 +1,8 @@
-# kuraytech — Brand identity
+# kuraykaraaslan labs — Brand identity
 
-<img src="mark.svg" width="96" alt="kuraytech mark">
+<img src="mark.svg" width="96" alt="kuraykaraaslan labs mark">
 
-kuraytech is the house every owned product ships from. Its identity is built
+kuraykaraaslan labs is the house every owned product ships from. Its identity is built
 so the house and its products read as one hand without pretending to be one
 product.
 
@@ -38,7 +38,7 @@ The house construction shared by every owned product (fixed in
 | Stroke | 7 (10.9% of the grid), round caps |
 | Tile | rounded square, radius 14 (22%) |
 
-**The kuraytech variant:** both arms end in a filled **node**. One trunk, a
+**The labs variant:** both arms end in a filled **node**. One trunk, a
 fork, and every branch ends in something that shipped. The kui-* packages use
 plain round caps instead, which is how the house mark and a package mark are
 told apart at a glance.
@@ -65,8 +65,10 @@ Exactly two colours in the mark. A third colour, or a gradient, is never added.
 - **Mono:** Geist Mono for labels and product names, falling back to
   `ui-monospace`.
 - The wordmark is lowercase, tight tracking, split at the semantic boundary:
-  **kuray** in trunk blue (the name every product domain carries,
-  `*.kuray.dev`), **tech** in the foreground colour.
+  **kuraykaraaslan** in the foreground colour (the person), **labs** in trunk
+  blue (what makes this the house rather than the personal account,
+  `github.com/kuraykaraaslan`). Written in prose as "kuraykaraaslan labs";
+  the handle `kuraykaraaslan-labs` appears only in URLs.
 
 GitHub renders SVGs as `<img>`, which cannot load web fonts, so every lockup
 width is derived from the system fallback's measured advance and never
